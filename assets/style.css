@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  color: #3a3a3a;
+}
+
+
+html {
+  font-family: Fira Sans, sans-serif;
+  font-weight: 300
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0
+}
+
+
+/* headings and logo */
+
+#logo {
+  float: left;
+  font-size: 200%;
+  margin-left: 30px;
+
+
+}
+
+/* navigation links */
+
+#menu {
+  font-size: 100%;
+  letter-spacing: 2px;
+}
+
+#menu,
+#logo {
+  line-height: 30px;
+}
+
+#menu li {
+  float: right;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+#menu a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  background: #ddd;
+  color: black;
+  /*border-bottom: 1px solid #3a3a3a;*/
+}
+
+.active {
+  border-bottom: 1px solid #3a3a3a;
+}
+
+.navbar {
+  overflow: auto;
+  background-color: rgb(173, 177, 222);
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  left: 0;
+  width: 100%;
+  /* Full width */
+  z-index: 9999;
+
+}
+
+/* Links inside the navbar */
+.navbar a {
+  /* float: right; */
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.logo-iccs {
+  float: left;
+}
+
+/* Change background on mouse-over */
+.navbar nav a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
+  /* Used in this example to enable scrolling */
+
+}
+
+
+
+/*Header message*/
+
+/* hero image and cover text */
+
+#hero-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+
+  position: relative;
+}
+
+#cover-text,
+#cover-text h2 {
+  color: #fff;
+}
+
+
+.vertical-center {
+  position: relative;
+  top: 50%;
+}
+
+#home {
+  background-image: url('https://i.ibb.co/jLFf1mz/4275985388-3e9ef4954e-o.jpg');
+  overflow: 0;
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+
+}
+
+.page-header {
+  height: 100vh;
+  background: center 100% / cover no-repeat;
+
+}
+
+/*Section 1*/
+
+.section-height{
+  min-height: 200px;
+}
+
+#visit-iccs {
+  background-color: rgb(230, 240, 239);
+  position: relative;
+  left: 290px;
+  top: -15px;
+  float: left;
+  /* needed to be checked */
+}
+
+#our-services {
+  background-color: chocolate;
+  position: relative;
+  top: -15px;
+  z-index: 1;
+}
+
+#about-islam {
+  background-color: rgb(230, 240, 239);
+  position: relative;
+  right: 290px;
+  top: -15px;
+  float: right;
+  /* needed to be checked */
+}
+
+.section1-box {
+  width: 20%;
+  margin: 1rem 0;
+  display: inline-block;
+}
+
+.two-thirds-width-column {
+  width: 66.66%;
+  display: inline-block;
+}
+
+.spacer {
+  clear: both;
+}
+
+/* Section 2*/
+.text-center {
+  text-align: center;
+}
+
+.one-third-width-column {
+  width: 30%;
+  display: inline-block;
+}
+
+.text-white {
+  color: #FFFFFF;
+}
+
+.text-black {
+  color: black;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+
+}
+
+.float-none {
+  float: none;
+}
+
+.section2-box {
+  padding: 10px 5px 25px 5px;
+  border-radius: 8px;
+  width: 100%;
+  margin: 2%;
+  background-color: chocolate;
+  position: relative;
+  left: 0%;
+  top: 30px;
+
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/* map */
+#map-wrapper {
+
+  height: 300px;
+  margin-bottom: 107px;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+/*Footer*/
+footer {
+  background-color: #5d5f5e;
+  padding: 10px;
+  overflow: auto;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.footer-span{
+  color: silver;
+  bottom: 0;
+  float: left;
+
+}
+
+
+footer>span>a {
+  color: beige;
+  text-decoration: none;
+  padding: 0 15px;
+  font-size: 0.8rem;
+}
+
+footer>p {
+  color: silver;
+  text-align: center;
+}
