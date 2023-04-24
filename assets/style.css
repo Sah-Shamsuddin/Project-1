@@ -250,16 +250,21 @@ body {
 
 }
 
+.clock {
+  display: inline-block;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
 .text-uppercase {
   text-transform: uppercase;
 }
 
-/* map */
-#map-wrapper {
-
-  height: 300px;
-  margin-bottom: 107px;
-}
+/*map*/
 
 #map {
   height: 100%;
