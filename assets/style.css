@@ -144,7 +144,8 @@ body {
 .vertical-center {
   position: relative;
   top: 15%;
-  }
+  font-size: x-large;
+}
 
 #home {
   background-image: url('https://i.ibb.co/jLFf1mz/4275985388-3e9ef4954e-o.jpg');
@@ -163,7 +164,7 @@ body {
 
 /*Section 1*/
 
-.section-height{
+.section-height {
   min-height: 200px;
 }
 
@@ -207,6 +208,15 @@ body {
   clear: both;
 }
 
+section p {
+  text-align: justify;
+}
+
+.kaabasharif {
+  position: relative;
+  right: 80px;
+}
+
 /* Section 2*/
 .text-center {
   text-align: center;
@@ -215,6 +225,18 @@ body {
 .one-third-width-column {
   width: 30%;
   display: inline-block;
+}
+
+.box1-position {
+  position: relative;
+  left: 50px;
+
+}
+
+.box3-position {
+  position: relative;
+  right: 50px;
+
 }
 
 .text-white {
@@ -238,6 +260,7 @@ body {
   float: none;
 }
 
+
 .section2-box {
   padding: 10px 5px 25px 5px;
   border-radius: 8px;
@@ -260,7 +283,8 @@ body {
   border: 2px solid black;
   border-radius: 10px;
 }
-#current_date{
+
+#current_date {
   font-size: 25px;
   font-weight: normal;
 }
@@ -289,7 +313,7 @@ footer {
   left: 0;
 }
 
-.footer-span{
+.footer-span {
   color: silver;
   bottom: 0;
   float: left;
@@ -308,13 +332,16 @@ footer>p {
   color: silver;
   text-align: center;
 }
+
 /* Contact/ Form*/
 * {
   box-sizing: border-box;
 }
 
 /* Style inputs */
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -359,13 +386,21 @@ input[type=submit]:hover {
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column, input[type=submit] {
+
+  .column,
+  input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
 }
-#amount{
-  border: 1px solid #ccc; 
-  width: 100%; 
+
+#amount {
+  border: 1px solid #ccc;
+  width: 100%;
   padding: 12px;
+}
+.copyright{
+  text-align: center; 
+  color: aqua;
+  font-size: small;
 }
