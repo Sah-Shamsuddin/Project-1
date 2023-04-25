@@ -54,5 +54,82 @@
 
   </header>
   <br><br><br>
+
+
+  <div class="container">
+    <div style="text-align:center">
+      <h2>Donation</h2>
+      <p>Please Donate generously</p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="https://i.ibb.co/ZVdwmbF/hadith-pic.jpg" alt="hadith-pic" border="0"></a>
+      </div>
+      <div class="column">
+        <form>
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" name="fullname" placeholder="Your full name..">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email address..">
+          <label for="phone">Contact Number</label>
+          <input type="text" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            required="required">
+
+          <label for="age">Age</label>
+          <select id="age" name="age" required="">
+            <option value="under-20">Under 20</option>
+            <option value="20s">20-29</option>
+            <option value="30s">30-39</option>
+            <option value="40s">40-49</option>
+            <option value="50s">50-59</option>
+            <option value="60+">60+</option>
+          </select>
+
+          <label for="donation_frequency">Donation Frequency</label>
+          <br><br>
+
+
+          <input id="Weekly" name="donation_frequency" value="Weekly" type="radio" required="">
+          <label for="weekly">Weekly</label>
+
+          <input id="monthly" name="donation_frequency" value="monthly" type="radio" required="">
+          <label for="monthly">Monthly</label>
+
+          <input id="yearly" name="donation_frequency" value="yearly" type="radio" required="">
+          <label for="yearly">Yearly</label>
+
+          <br><br>
+          <label for="receipt">Receipt</label>
+          <br><br>
+
+          <div>
+            <input type="checkbox" id="email_receipt" name="receipt">
+            <label for="emailreceipt-checkbox">Email me a receipt</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="give_anonymously" name="receipt">
+            <label for="give_anonymously-checkbox">Give Anonymously</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="email_list" name="receipt">
+            <label for="email_list-checkbox">Add me to the email list</label>
+          </div>
+          <br>
+
+            <label for="amount">Donation Amount</label>
+            <br><br>
+            <input type="number" style="border: 1px solid #ccc; width: 100%; padding: 12px;" id="amount" name="amount" placeholder="Enter amount ...">
+
+          <br><br>
+
+          <input type="submit" value="Donate">
+        </form>
+      </div>
+    </div>
+  </div>
+
 </body>
+
 </html>
