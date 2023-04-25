@@ -247,6 +247,7 @@ body {
   position: relative;
   left: 0%;
   top: 30px;
+  border: 2px solid black;
 
 }
 
@@ -317,8 +318,8 @@ input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
+  margin-top: 4px;
+  margin-bottom: 4px;
   resize: vertical;
 }
 
@@ -363,92 +364,8 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
-
-/* donation */
-/*
-* { box-sizing: border-box; }
-body {
-  background: #1f1f1f;
-  font-family: arial;
+#amount{
+  border: 1px solid #ccc; 
+  width: 100%; 
+  padding: 12px;
 }
-
-.donations {
-  position: relative;
-  border: 1px solid #eee;
-  border-radius: 3px;
-  padding: 2em;
-  max-width: 400px;
-  margin: 10em auto;
-  background: white;
-  overflow: hidden;
-}
-
-.donations__progress-bar {
-  background: orange;
-  height: 1em;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: translate3D(-100%, 0, 0);
-  width: 100%;
-  transition: transform 500ms ease;
-}
-
-
-.donations__progress {
-  text-align: center;
-}
-
-
-.donations__text {
-  margin-bottom: 1em;
-  line-height: 1.5;
-}
-
-.donations__donors {
-  font-weight: bold;
-}
-
-.donations__form {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  font-size: 1.3em;
-}
-
-.donations__input,
-.donations__submit,
-.donations__reset {
-  font-size: inherit;
-  border: none;
-  padding: 0.5em 0.8em;
-  border-radius: 5px;
-  width: 45%;
-  min-width: 100px;
-  margin-bottom: 1em;
-}
-
-.donations__submit {
-  background: #1cbc2c;
-  color: white;
-  
-}
-
-.donations__reset {
-  color: white;
-  flex-grow: 1
-}
-
-.donations__input {
-  border: 1px solid #eee;
-  padding-left: 1em;
-}
-
-.donations__input-icon {
-  position: absolute;
-  color: gray;
-  line-height: 1.3;
-  padding: 0.5em 0.3em;
-  pointer-events: none;
-}
-*/
