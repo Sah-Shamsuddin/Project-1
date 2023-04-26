@@ -10,7 +10,7 @@ The navigation bar can be found on all the pages including form submission pages
 Unfortunately the navigation bar is not design yet to be responsive for all the devices. However, it fully works on desktop browser.
 All the options on navigation bar have hover function and beside them have some font-awesome icon to visualize. Left side of the bar contains the organization’s logo. The navigation bar position is fixed.
 ## Home Page Banner
- ![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/126564045/234498835-a31d8d89-aff6-4f8b-9014-8d20dbbde754.png)
 
 The banner displays a beautiful mosque from Dubai to represent the mosque site. It also contains some text and an audio track. 
 ## Categories 
@@ -62,7 +62,7 @@ Project-1
 In the GitHub repository, go to the Settings tab
 From the left side menu navigate to Pages, and then select the Main Branch
 Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
-The live link can be found here: ICCS
+The live link can be found here: ICCS-Link to live site
 
 ## Support
 
