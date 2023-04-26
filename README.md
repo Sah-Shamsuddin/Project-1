@@ -62,7 +62,7 @@ Project-1
 In the GitHub repository, go to the Settings tab
 From the left side menu navigate to Pages, and then select the Main Branch
 Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
-The live link can be found here: ICCS-Link to live site
+The live link can be found here: ICCS-Link to live site-https://sah-shamsuddin.github.io/Project-1/
 
 ## Support
 
