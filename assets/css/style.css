@@ -164,7 +164,7 @@ nav ul li a {
 }
 
 #home {
-  background-image: url('./images/dubai-mosque-banner.jpg');
+  background-image: url('../images/dubai-mosque-banner.jpg');
   /* url('https://i.ibb.co/jLFf1mz/4275985388-3e9ef4954e-o.jpg'); */
   background-size: cover;
   max-height: 50%;
@@ -172,26 +172,26 @@ nav ul li a {
 }
 
 #about-home {
-  background-image: url('./images/diyanet-mosque-lanham-maryland-usa.jpeg');
+  background-image: url('../images/diyanet-mosque-lanham-maryland-usa.jpeg');
   background-size: cover;
   max-height: 100%;
 
 }
 
 #services-home {
-  background-image: url('./images/large_blue-mosque.jpg');
+  background-image: url('../images/large_blue-mosque.jpg');
   background-size: cover;
   max-height: 100%;
 }
 
 #news-home {
-  background-image: url('./images/large_jama-masjid.jpeg');
+  background-image: url('../images/large_jama-masjid.jpeg');
   background-size: cover;
   max-height: 100%;
 }
 
 #donation-home {
-  background-image: url('./images/thank-you-for-donation-1-1536x1090.webp');
+  background-image: url('../images/thank-you-for-donation-1-1536x1090.webp');
   background-size: cover;
   max-height: 150%;
 }
