@@ -190,6 +190,12 @@ nav ul li a {
   max-height: 100%;
 }
 
+#donation-home {
+  background-image: url('./images/thank-you-for-donation-1-1536x1090.webp');
+  background-size: cover;
+  max-height: 150%;
+}
+
 
 /* Audio button color*/
 audio::-webkit-media-controls-panel {
@@ -514,4 +520,3 @@ input[type=submit]:hover {
   width: 100%;
   padding: 12px;
 }
-
