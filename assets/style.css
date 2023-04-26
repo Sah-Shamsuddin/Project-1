@@ -111,15 +111,6 @@ body {
 
 }
 
-/* Links inside the navbar */
-/* .navbar a { */
-/* float: right; */
-/*display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-} */
 nav ul li a {
   color: rgb(6, 6, 6);
   font-size: 17px;
@@ -144,15 +135,11 @@ nav ul li a {
   padding: 16px;
   margin-top: 30px;
   height: 1500px;
-  /* Used in this example to enable scrolling */
 
 }
 
-
-
 /*Header message*/
 
-/* hero image and cover text */
 
 #hero-outer {
   height: 600px;
@@ -183,6 +170,7 @@ nav ul li a {
   max-height: 50%;
 
 }
+
 #about-home {
   background-image: url('./images/diyanet-mosque-lanham-maryland-usa.jpeg');
   background-size: cover;
@@ -195,6 +183,13 @@ nav ul li a {
   background-size: cover;
   max-height: 100%;
 }
+
+#news-home {
+  background-image: url('./images/large_jama-masjid.jpeg');
+  background-size: cover;
+  max-height: 100%;
+}
+
 
 /* Audio button color*/
 audio::-webkit-media-controls-panel {
@@ -480,11 +475,13 @@ input[type=submit]:hover {
   display: table;
   clear: both;
 }
+
 .about-container {
   font-size: medium;
   text-align: center;
   padding-top: 1rem;
 }
+
 .submission-container {
   font-size: medium;
   text-align: center;
