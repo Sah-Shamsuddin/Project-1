@@ -42,3 +42,23 @@ The forms contains the patern for contact number to make it sure and on submissi
 
 The donation forms contains same as contat form including radio buton and check boxes.
 
+
+##  Deployment
+
+Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+Log in to GitHub
+Navigate to Sah-Shamsuddin/
+Project-1
+ in the list of repositories
+In the GitHub repository, go to the Settings tab
+From the left side menu navigate to Pages, then select the Main Branch
+Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
+The live link can be found here:ICCS
+
+## Support
+
+
+The icons were taken from Font Awesome
+Code W3Schools was helping through the whole project. Also got some tips like how to inspect, from a friend
